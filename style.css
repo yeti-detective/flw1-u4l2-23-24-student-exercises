@@ -1,0 +1,92 @@
+.gameboy {
+    background-color: #8bac0f;
+    width: 320px;
+    margin: 40px auto;
+    padding: 20px 20px 40px 20px;
+    border: 10px solid #0f380f;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .screen-container {
+    background-color: #0f380f;
+    padding: 10px;
+    border: 5px ridge #306230;
+    margin-bottom: 20px;
+  }
+  
+  .choices, .stats {
+    text-align: left;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .d-pad, .action-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .button {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    background-color: #306230;
+    border-radius: 50%;
+  }
+  
+  .up, .down {
+    margin-left: 15px;
+  }
+  
+  .right {
+    align-self: flex-end;
+  }
+  
+  .left {
+    align-self: flex-start;
+  }
+  
+  .a-button, .b-button {
+    width: 35px;
+    height: 35px;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+  }
+  
+  body, input.pokemon, button.search {
+    font-family: 'Press Start 2P', cursive;
+    color: #0f380f;
+  }
+  
+  input.pokemon, button.search {
+    background-color: #9bbc0f;
+    border: 2px solid #0f380f;
+    margin: 5px 0;
+    padding: 10px;
+  }
+  
+  button.search:hover {
+    background-color: #8bac0f;
+  }
+  
+  .pokemon-name, .pokemon-image {
+    margin: 10px 0;
+    color: white;
+    text-align: center
+  }
+  
+  img {
+    width: 300px;
+  }
+  

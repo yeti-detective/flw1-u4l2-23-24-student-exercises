@@ -10,7 +10,7 @@ search.addEventListener("click", function() {
 
   
 // 1. Create a fetch request using the pokemonURL
-
+fetch(pokemonURL).then(res => res.blob()).then(blob => blob.text()).then(text => console.log(JSON.parse(text)));
 
 // 2. Use the .then method and convert the response to JSON
 
